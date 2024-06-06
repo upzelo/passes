@@ -111,4 +111,6 @@ abstract class AbstractClass extends Component
         ViewUnlockRequirement::UNLOCK_REQUIRED_TO_VIEW,
     ])]
     protected ?string $viewUnlockRequirement;
+
+    public array $messages = [];
 }

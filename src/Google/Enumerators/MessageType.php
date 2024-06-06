@@ -13,6 +13,9 @@ final class MessageType implements LegacyValueEnumerator
     public const TEXT = 'TEXT';
 
     /** @var string */
+    public const TEXT_AND_NOTIFICATION = 'TEXT_AND_NOTIFICATION';
+
+    /** @var string */
     public const EXPIRATION_NOTIFICATION = 'EXPIRATION_NOTIFICATION';
 
     public static function values(): array
