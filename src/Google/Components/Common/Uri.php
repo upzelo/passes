@@ -20,7 +20,7 @@ class Uri extends Component
      * The URI's title appearing in the app as text. Recommended maximum is 20 characters to ensure full string
      * is displayed on smaller screens.
      */
-    #[MaxLength(20)]
+    #[MaxLength(50)]
     public ?string $description;
 
     /**
